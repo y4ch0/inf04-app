@@ -9,9 +9,9 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
-    "homepage": "http://y4ch0.github.io/react-test/",
+    "homepage": "https://y4ch0.github.io/inf04-app",
     "dependencies": {
         "bootstrap-icons": "^1.11.3",
         "react": "^19.0.0",
