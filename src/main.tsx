@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import Navbar from "./components/Navbar.tsx";
 import Footer from "./components/Footer.tsx";
 import "./assets/modernify.css";
@@ -27,7 +27,7 @@ import React_ComponentLogic from "./views/react/ComponentLogic.tsx";
 import React_Loops from "./views/react/Loops.tsx";
 
 createRoot(document.getElementById("root")!).render(
-    <BrowserRouter>
+    <HashRouter>
         <Navbar />
         <Routes>
             <Route path="/" element={<App />} />
@@ -67,5 +67,5 @@ createRoot(document.getElementById("root")!).render(
             </Route>
         </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
 );
