@@ -23,14 +23,11 @@ export default function Introduction() {
                                 <b>HTML</b> jest standardowym językiem znaczników dla stron internetowych. Jego angielskie rozwinięcie to: HyperText Markup Language.
                             </p>
                             <p>
-                                Wszystkie strony, które odwiedzasz bazują właśnie na tym języku - w mniej, lub bardziej{" "}
-                                <a href="#" onClick={() => setDialogOpen(true)}>
-                                    zmodyfikowanej formie.
-                                </a>
+                                Wszystkie strony, które odwiedzasz bazują właśnie na tym języku - w mniej, lub bardziej <a onClick={() => setDialogOpen(true)}>zmodyfikowanej formie.</a>
                             </p>
                             <p>
-                                Znaczniki HTML instruują przeglądarkę, co ma wyświetlić, w jaki sposób (coś na zasadzie „to jest nagłówek”, „to jest akapit”, „to jest link” itp.), oraz jak je
-                                modyfikować w pewnych przypadkach np. wyświetlanie strony na urządzeniach mobilnych.
+                                Znaczniki HTML instruują przeglądarkę, co ma wyświetlić, w jaki sposób (coś na zasadzie „to jest nagłówek”, „to jest akapit”, „to jest link” itp.), oraz jak je modyfikować w pewnych przypadkach np. wyświetlanie strony
+                                na urządzeniach mobilnych.
                             </p>
                         </div>
                     </div>
@@ -43,8 +40,7 @@ export default function Introduction() {
                                         <b>HTML</b> (ang. HyperText Markup Language) jest językiem typu znacznikowego do tworzenia stron internetowych.
                                     </li>
                                     <li>
-                                        <b>HTML instruuje przeglądarke</b> jak wyświetlić dany element, w którym miejscu, oraz informuje czytniki stron internetowych dla osób z niepełnosprawnościami
-                                        jak wyświetlić daną zawartość.
+                                        <b>HTML instruuje przeglądarke</b> jak wyświetlić dany element, w którym miejscu, oraz informuje czytniki stron internetowych dla osób z niepełnosprawnościami jak wyświetlić daną zawartość.
                                     </li>
                                 </ul>
                             </div>
@@ -59,8 +55,8 @@ export default function Introduction() {
                     <cite>JSX to rozszerzenie składni JavaScriptu, które umożliwia pisanie znaczników podobnych do HTML wewnątrz pliku JavaScript.</cite>
                 </p>
                 <p>
-                    Mówiąc prościej: Rozszerzenia JSX (wykorzystywane m.in. w React.js) umożliwiają "wkradanie" elementów HTML w kod JavaScript, aby wyświetlić jakieś dane w wygodniejszy sposób.
-                    Dokładniej te zagadnienie jest opisane w zbiorze <Link to="/react/komponenty-logika">Logika komponentów</Link>.
+                    Mówiąc prościej: Rozszerzenia JSX (wykorzystywane m.in. w React.js) umożliwiają "wkradanie" elementów HTML w kod JavaScript, aby wyświetlić jakieś dane w wygodniejszy sposób. Dokładniej te zagadnienie jest opisane w zbiorze{" "}
+                    <Link to="/react/komponenty-logika">Logika komponentów</Link>.
                 </p>
             </Dialog>
         </>

@@ -156,7 +156,7 @@ export default function Navbar() {
                     </div>
                     <ul id="nav-menu" className="nav" style={{ display: navbarDisplay }}>
                         <button className="nav-collapse" onClick={changeNavbarVisibility}>
-                            <img src="https://cdn.jsdelivr.net/gh/y4ch0/Modernify/x-lg.svg" alt="Navigation menu close icon" />
+                            &times;
                         </button>
                         {navbarLinks.map((item) => (
                             <li key={item.label}>
@@ -176,7 +176,7 @@ export default function Navbar() {
                         ))}
                     </ul>
                     <button className="nav-collapse" onClick={changeNavbarVisibility}>
-                        <img src="https://cdn.jsdelivr.net/gh/y4ch0/Modernify/list.svg" alt="Navigation menu open icon" />
+                        &equiv;
                     </button>
                 </div>
             </nav>
