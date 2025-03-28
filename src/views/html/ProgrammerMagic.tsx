@@ -1,4 +1,5 @@
 import HTMLSideNav from "../../components/HTMLSideNav";
+import { Link } from "react-router";
 
 export default function ProgrammerMagic() {
     return (
@@ -69,9 +70,9 @@ export default function ProgrammerMagic() {
                             <div className="card" style={{ marginBottom: "30px" }}>
                                 <p>
                                     <cite>Domyślne formatowanie wszystkich selektorów: krój czcionki Georgia i wyrównanie tekstu do środka</cite>{" "}
-                                    <a href="#note-1" className="button outlined small">
+                                    <Link to="/html/sztuczki-programisty#note-1" className="button outlined small">
                                         Notatka
-                                    </a>
+                                    </Link>
                                 </p>
                                 <pre>{`* {
     font-family: "Georgia";
