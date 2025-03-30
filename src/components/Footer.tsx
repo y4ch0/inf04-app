@@ -3,11 +3,11 @@ export default function Footer() {
         <>
             <footer>
                 <div className="wrapper">
-                    <p>© 2025 y4ch0 | INF.04 - Materiały przygotowawcze</p>
-                    <p>Materiały umieszczone na stronie podlegają licencji typu Creative Commons</p>
+                    <p>© 2025 y4ch0 | INF.03, INF.04 - Materiały przygotowawcze</p>
+                    <p>Materiały macierzyste umieszczone na stronie podlegają licencji typu Creative Commons lub w przypadku użycia materiałow zewnętrznych ich oryginalnej licencji.</p>
                     <p>
-                        <a property="dct:title" rel="cc:attributionURL" href="https://y4ch0.github.io/INF-04-Przygotowania">
-                            INF.04 - Materiały przygotowawcze
+                        <a property="dct:title" rel="cc:attributionURL" href="https://y4ch0.github.io/inf04-app/#/">
+                            INF.03, INF.04 - Materiały przygotowawcze
                         </a>{" "}
                         by{" "}
                         <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/y4ch0">
