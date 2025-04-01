@@ -14,7 +14,7 @@ export default function HTMLSideNav() {
         },
         {
             label: "Właściwości elementów HTML",
-            path: "/css/wlasciwosci-html",
+            path: "/css/wlasciwosci-elementow-html",
         },
         {
             label: "Egzaminacyjne określenia właściwości CSS",
