@@ -14,13 +14,10 @@ export default function HTMLAttributes() {
                     </div>
                     <div className="row">
                         <div className="col">
-                            <p>Właściwości elementów HTML to atrybuty, które są przypisane do elementów HTML.</p>
-                            <p>Właściwości elementów HTML są przypisane do elementu HTML w postaci pary klucz-wartość.</p>
-                            <pre className="code-block">
-                                <header>html</header>
-                                {`<p class="paragraph" id="paragraph1">Lorem ipsum dolor sit amet.</p>`}
-                            </pre>
-                            <p>Wartością atrybutu klasy CSS może być dowolny ciąg znaków, który nie zawiera spacji.</p>
+                            <p>Zależnie od tego jaki element jest aktualnie stylowany można zastosować różne właściwości stylowania.</p>
+                            <p>
+                                Przykładem tutaj jest zmiany stylu <code>pointer-events: ...</code> wyłącznie na elementach, z którymi mogą podjąć interakcje użytkownicy.
+                            </p>
                         </div>
                     </div>
                 </div>
